@@ -3,7 +3,7 @@
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import load_tools, initialize_agent, AgentType
 
-llm = ChatOpenAI(temperature=0.0, openai_api_key="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")
+llm = ChatOpenAI(temperature=0.0, openai_api_key="")
 tools = load_tools(
     ["arxiv"],
 )
