@@ -4,8 +4,8 @@ from langchain.chat_models import ChatOpenAI
 import os
 import chainlit as cl
 
-os.environ["OPENAI_API_KEY"] = "OPENAI_API_KEY"
-os.environ["SERPAPI_API_KEY"] = "SERPAPI_API_KEY"
+os.environ["OPENAI_API_KEY"] = "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"
+os.environ["SERPAPI_API_KEY"] = "0b0fe0459b830457ad4ba320142db480c7a0b236ab27b2b4d10bf9611bfa1d4c"
 
 
 @cl.on_chat_start
